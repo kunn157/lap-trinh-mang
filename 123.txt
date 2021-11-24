@@ -1,0 +1,19 @@
+nội dung gồm có 4 phần : Tổng quat
+			Phân tích và thiết kế hệ thống
+			Xây dựng WebRTC
+			Kết luận và Demo
+Phần 1 tổng quát 
+- TỔNG QUAN VỀ WEBRTC: WebRTC (Web Real-Time Communication) là một tiêu chuẩn xác định một tập hợp
+các giao thức truyền thông và giao diện lập trình ứng dụng cho phép giao tiếp thời gian thực qua các kết nối ngang hàng
+-Quá trình phát triển:
+WebRTC được Google bắt đầu xây dựng cơ sở tiêu chuẩn dựa trên Công cụ truyền thông thời gian thực 
+(Real time Media Engine) trong tất cả các trình duyệt.
+Ý tưởng này được đưa ra bởi nhóm phát triển Google Hangouts vào năm 2009
+-Kiến trúc WebRTC:Kiến trúc web cổ điển dựa trên máy chủ mô hình, nơi trình duyệt gửi yêu cầu HTTP đến máy chủ để lấy nội dung, máy chủ phản hồi,
+ gửi nội dung trở lại trình duyệt dưới dạng HTML, thường đi kèm với JavaScript và kiểu xếp tầng Trang tính (CSS)
+-API trong WebRTC:
+RTCPeerConnection API: Đóng gói tất cả việc tạo, quản lý và trạng thái kết nối trong một giao diện.
+MediaStream: Đặc tả "Media Capture and Stream" theo W3C được định nghĩa là một tập hợp các API JavaScript 
+mới giúp ứng dụng có thể yêu cầu các luồng âm thanh và video từ các nền tảng bên dưới, cũng như một tập hợp các API để thao tác và xử lý dữ liệu. 
+luồng phương tiện đó
+RTCDataChannel: API RTCDataChannel cho phép trao đổi dữ liệu tùy ý ngang hàng với độ trễ thấp và thông lượng cao.
